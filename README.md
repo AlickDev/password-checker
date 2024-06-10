@@ -1,6 +1,7 @@
 # password-checker
 A simple library to check password validity.
 # Example:
+```
 const { encrypt, decrypt, checkPassword } = require('password-checker');
 
 // Password validation
@@ -18,3 +19,4 @@ console.log('Encrypted:', encryptedText);
 
 const decryptedText = decrypt(encryptedText, mySecretKey);
 console.log('Decrypted:', decryptedText);
+```
